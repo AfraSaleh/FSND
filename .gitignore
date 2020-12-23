@@ -27,3 +27,6 @@ htmlcov/
 # Direnv
 .envrc
 .direnv
+
+docker build -t "jwt-api-test" .
+docker image ls
